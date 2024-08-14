@@ -1,0 +1,74 @@
+\documentclass{modern-resume}
+
+\begin{document}
+
+% 顶部显示姓名
+\resumeName{张三}
+
+% 联系信息
+% 联系信息
+\contactInfo{(+86) 123-4567-8901}{zhangsan@email.com}{www.zhangsan.com}{github.com/zhangsan}
+% 教育背景
+\sectionTitle{graduation-cap}{教育背景}
+\educationEntry{清华大学}{计算机科学与技术}{2016.09 -- 2020.06}{
+    \begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+        \resumeItem{\textbf{GPA:} 3.8/4.0}
+        \resumeItem{\textbf{主修课程:} 数据结构、算法分析、机器学习、深度学习}
+        \resumeItem{\textbf{毕业论文:} 基于深度强化学习的智能交通信号控制系统}
+    \end{itemize}
+}
+
+% 工作经验
+\sectionTitle{briefcase}{工作经验}
+\workEntry{科技创新有限公司}{人工智能工程师}{2020.07}{至今}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+    \resumeItem{领导开发团队设计并实现了基于深度学习的图像识别系统，\textbf{准确率提高15\%}}
+    \resumeItem{优化了公司核心算法，使\textbf{处理速度提升30\%}，同时降低了\textbf{50\%}的计算资源消耗}
+    \resumeItem{参与了多个开源项目，为\textbf{TensorFlow}贡献了多个Pull Request}
+\end{itemize}
+
+\workEntry{未来科技有限公司}{软件开发实习生}{2019.06}{2019.08}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+    \resumeItem{参与开发了公司的\textbf{Android移动应用}，负责UI设计和后端API对接}
+    \resumeItem{编写了\textbf{自动化测试脚本}，提高了50\%的测试效率}
+\end{itemize}
+
+% 项目经验
+\sectionTitle{project-diagram}{项目经验}
+\projectEntry{智能助手机器人}{项目负责人}{2021.03 -- 2021.09}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+    \resumeItem{设计并实现了一个基于自然语言处理的\textbf{智能助手机器人}}
+    \resumeItem{使用\textbf{BERT模型}进行意图识别和实体抽取，准确率达到95\%}
+    \resumeItem{实现了\textbf{多轮对话管理}，提高了用户体验}
+\end{itemize}
+
+% 技能专长
+\sectionTitle{laptop-code}{技能专长}
+
+\skillSection{编程语言}{Python, Java, C++, JavaScript}
+
+\skillSection{框架 \& 工具}{TensorFlow, PyTorch, Docker, Git, Linux}
+
+\skillSection{数据库}{MySQL, MongoDB, Redis}
+
+\skillSection{专业领域}{机器学习, 深度学习, 自然语言处理, RESTful API设计}
+
+\skillSection{软技能}{团队协作, 项目管理, 问题解决, 有效沟通}
+
+% 荣誉奖项
+\sectionTitle{award}{荣誉奖项}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+    \resumeItem{2021年度\textbf{最佳员工奖} -- 科技创新有限公司}
+    \resumeItem{2020年\textbf{ACM编程大赛三等奖}}
+    \resumeItem{2019年\textbf{国家奖学金}}
+\end{itemize}
+
+% 语言能力
+\sectionTitle{language}{语言能力}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5ex]
+    \resumeItem{中文：\textbf{母语}}
+    \resumeItem{英语：\textbf{流利} (TOEFL: 110)}
+    \resumeItem{日语：\textbf{基础}}
+\end{itemize}
+
+\end{document}
